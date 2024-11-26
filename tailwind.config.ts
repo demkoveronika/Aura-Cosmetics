@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inria: ["var(--font-inria-sans)", "sans-serif"],
+        aboreto: ["var(--font-aboreto-sans)", "serif"],
+      },
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#4B2E1C",
       },
     },
   },
