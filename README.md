@@ -1,40 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Aura Cosmetics
 
-## Getting Started
+## Description
 
-First, run the development server:
+**Aura Cosmetics** is a modern online store offering high-quality beauty and skincare products. Designed with a user-friendly interface, the platform provides an intuitive shopping experience, allowing customers to easily browse and purchase their favorite items. Our mission is to deliver exceptional value through elegant design and seamless functionality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies
+  - **Next.js:** A React-based framework for building fast and scalable web applications, using the pages directory for routing.
+  - **TypeScript:** A strongly-typed superset of JavaScript that enhances code quality, maintainability, and developer productivity.
+  - **Tailwind CSS:** A utility-first CSS framework for creating responsive and modern designs quickly.
+  - **SCSS:** A robust CSS preprocessor for writing organized and reusable styles.
+  - **Swiper.js (Slider):** A flexible and customizable slider library for creating engaging, responsive carousels.
+  - **Figma:** The design tool used to create a custom and original UI/UX design for the platform.
+  - **Vercel:** A cloud platform for deploying web applications effortlessly with global scalability and fast performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## DEMO link
+  - [Aura Cosmetics DEMO](https://aura-cosmetics.vercel.app/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Link to layout
+  - [Aura Cosmetics Layout](https://www.figma.com/design/SkcAVQSplvpvF91n7GLnrk/AuraCosmetics?node-id=78-2&node-type=frame&t=2dLrqazZHTUXR4AZ-0)
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Installation instructions
+To install the **Aura Cosmetics** project locally, follow these steps:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+  ### 1. Cloning the Repository
+  Clone the repository to your local computer:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  ```bash
+  git clone https://github.com/demkoveronika/Aura-Cosmetics.git
+  ```
 
-## Learn More
+  ### 2. Change to the Project Directory
+  Go to the directory, where the project is saved:
 
-To learn more about Next.js, take a look at the following resources:
+  ```bash
+  cd aura-cosmetics
+  ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+  ### 3. Installing Dependencies
+  Install dependencies using the package manager. For example, if you are using Node.js:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  ```bash
+  npm install
+  ```
 
-## Deploy on Vercel
+  Or if you are using Yarn:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ```bash
+  yarn install
+  ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+  ### 4. Run the Project
+  After installing the dependencies, run the project:
+
+  ```bash
+  npm run dev
+  ```
+
+  This command will start the server and open the project in your browser at http://localhost:3000
