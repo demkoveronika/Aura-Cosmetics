@@ -4,6 +4,9 @@
 
 :root {
   --background: #ffffff;
+  --active-color: #C2A79A;
+  --pagination-color: #FFF2E9;
+  --gold-color: #DAA520;
 }
 
 html {
@@ -17,4 +20,14 @@ body {
 
 .list-item {
   @apply uppercase text-[30px] tracking-[0.2em] font-inria text-primary;
+}
+
+.custom-bullet {
+  margin: 0 !important;
+  margin-right: 40px !important;
+  margin-bottom: 20px !important;
+}
+
+.custom-bullet:last-child {
+  margin-right: 0 !important;
 }
