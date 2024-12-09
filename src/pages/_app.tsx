@@ -12,10 +12,15 @@ const aboretoSans = localFont({
   variable: "--font-aboreto-sans",
   weight: "100 900",
 });
+const rosarivoSans = localFont({
+  src: "./fonts/Rosarivo-Regular.woff",
+  variable: "--font-rosarivo-sans",
+  weight: "100 900",
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${inriaSans.variable} ${aboretoSans.variable}`}>
+    <div className={`${inriaSans.variable} ${aboretoSans.variable} ${rosarivoSans.variable}`}>
       <Component {...pageProps} />
     </div>
   );

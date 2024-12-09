@@ -11,10 +11,13 @@ export default {
       fontFamily: {
         inria: ["var(--font-inria-sans)", "sans-serif"],
         aboreto: ["var(--font-aboreto-sans)", "serif"],
+        rosarivo: ["var(--font-rosarivo-sans)", "cursive"],
       },
       colors: {
         background: "var(--background)",
         primary: "#4B2E1C",
+        secondary: "#C2A79A",
+        tertiary: "#FFF2E8",
       },
     },
   },

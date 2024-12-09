@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../../public/images/logo.svg";
-import menu from "../../public/images/menu-icon.svg";
-import cart from "../../public/images/shopping-bag-icon.svg";
+import logo from "../../public/images/header/logo.svg";
+import menu from "../../public/images/header/menu-icon.svg";
+import cart from "../../public/images/header/shopping-bag-icon.svg";
 import Link from "next/link";
 
 export const Header = () => {

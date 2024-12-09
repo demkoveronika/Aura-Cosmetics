@@ -1,6 +1,9 @@
 import { Header } from "@/components/Header";
 import Image from "next/image";
-import hero from "../../public/images/hero.svg";
+import hero from "../../public/images/header/hero.svg";
+import { Catalog } from "@/components/Catalog";
+import { New } from "@/components/New";
+import { About } from "@/components/About";
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
         height={744}
         className="w-full"
       />
+      <Catalog />
+      <New />
+      <About />
     </div>
   );
 }
