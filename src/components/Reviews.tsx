@@ -11,7 +11,10 @@ import { reviewsDataSecond } from "../../data/reviewsDataSecond";
 
 export const Reviews = () => {
   return (
-    <section className="flex flex-col mt-[250px] items-center justify-center">
+    <section
+      className="flex flex-col mt-[250px] items-center justify-center"
+      id="reviews"
+    >
       <div className="flex flex-col items-center justify-center">
         <h1 className="uppercase w-[361px] text-[50px] tracking-[0.5em] leading-[60px] font-inria text-primary text-center">
           Reviews

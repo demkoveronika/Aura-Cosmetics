@@ -5,6 +5,8 @@ import { Catalog } from "@/components/Catalog";
 import { New } from "@/components/New";
 import { About } from "@/components/About";
 import { Reviews } from "@/components/Reviews";
+import { Other } from "@/components/Other";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <New />
       <About />
       <Reviews />
+      <Other />
+      <Footer />
     </div>
   );
 }

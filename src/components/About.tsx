@@ -5,7 +5,10 @@ import image3 from "../../public/images/about/image-3.svg";
 
 export const About = () => {
   return (
-    <section className="flex flex-col mt-[200px] items-center justify-center">
+    <section
+      className="flex flex-col mt-[200px] items-center justify-center"
+      id="about-us"
+    >
       <div className="relative flex flex-col items-center justify-center">
         <h1 className="relative z-10 uppercase text-[50px] tracking-[0.5em] leading-[60px] font-inria text-primary text-center">
           About our cosmetics
