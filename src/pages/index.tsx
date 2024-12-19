@@ -4,6 +4,7 @@ import hero from "../../public/images/header/hero.svg";
 import { Catalog } from "@/components/Catalog";
 import { New } from "@/components/New";
 import { About } from "@/components/About";
+import { Reviews } from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Catalog />
       <New />
       <About />
+      <Reviews />
     </div>
   );
 }
