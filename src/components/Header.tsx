@@ -3,8 +3,14 @@ import logo from "../../public/images/header/logo.svg";
 import menu from "../../public/images/header/menu-icon.svg";
 import cart from "../../public/images/header/shopping-bag-icon.svg";
 import Link from "next/link";
+import { useState } from "react";
+import Menu from "./Menu";
 
 export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
   return (
     <header className="flex justify-between items-center px-[68px] py-[16px]">
       <Image src={logo} alt="logo" width={106} height={106} />
@@ -33,11 +39,13 @@ export const Header = () => {
           </Link>
         </li>
         <li>
-          <Link href="#menu">
+          <Link href="#menu" onClick={toggleMenu}>
             <Image src={menu} alt="menu" width={45} height={45} />
           </Link>
         </li>
       </ul>
+
+      <Menu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
     </header>
   );
 };

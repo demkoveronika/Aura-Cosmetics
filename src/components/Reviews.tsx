@@ -31,7 +31,7 @@ export const Reviews = () => {
             delay: 0,
             disableOnInteraction: false,
           }}
-          speed={4000}
+          speed={6000}
           slidesPerView={3}
           spaceBetween={150}
         >
@@ -51,7 +51,7 @@ export const Reviews = () => {
             delay: 0,
             disableOnInteraction: false,
           }}
-          speed={3000}
+          speed={5000}
           slidesPerView={3}
           spaceBetween={150}
         >

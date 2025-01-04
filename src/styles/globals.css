@@ -18,6 +18,11 @@ body {
   background: var(--background);
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .list-item {
   @apply uppercase text-[30px] tracking-[0.2em] font-inria text-primary;
 }

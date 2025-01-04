@@ -44,7 +44,8 @@ export const New = () => {
             bulletClass: "swiper-pagination-bullet custom-bullet",
             bulletActiveClass: "swiper-pagination-bullet-active",
           }}
-          autoplay={{ delay: 2000 }}
+          autoplay={{ delay: 3000 }}
+          speed={1000}
           loop={true}
           className="w-full h-full max-w-[1392px]"
         >
