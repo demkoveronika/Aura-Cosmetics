@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inria: ["var(--font-inria-sans)", "sans-serif"],
-        aboreto: ["var(--font-aboreto-sans)", "serif"],
-        rosarivo: ["var(--font-rosarivo-sans)", "cursive"],
+        inria: ["var(--font-inria-serif)", "sans-serif"],
+        aboreto: ["var(--font-aboreto-serif)", "serif"],
+        rosarivo: ["var(--font-rosarivo-cursive)", "cursive"],
+        inriaBold: ["var(--font-inria-serif-bold)", "sans-serif"],
+        inriaBoldItalic: ["var(--font-inria-serif-bold-italic)", "sans-serif"],
       },
       colors: {
         background: "var(--background)",

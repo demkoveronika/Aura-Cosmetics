@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/header/logo.svg";
-import phone from "../../public/images/footer/phone.svg";
-import location from "../../public/images/footer/location.svg";
+import logo from "../../public/images/logo.svg";
+import phone from "../../public/images/icons/call-gold.svg";
+import location from "../../public/images/icons/location.svg";
 
 export const Footer = () => {
   return (
@@ -66,11 +66,11 @@ export const Footer = () => {
 
         <ul className="mt-[82px]">
           <li>
-            <Link href="#privacy" className="uppercase font-inria text-[20px] text-light leading-[20px] tracking-[0.5em]">Privacy Police</Link>
+            <Link href="/privacy-policy" className="uppercase font-inria text-[20px] text-light leading-[20px] tracking-[0.5em]">Privacy Policy</Link>
           </li>
 
           <li className="mt-[22px]">
-            <Link href="#terms" className="uppercase font-inria text-[20px] text-light leading-[20px] tracking-[0.5em]">Terms</Link>
+            <Link href="/terms" className="uppercase font-inria text-[20px] text-light leading-[20px] tracking-[0.5em]">Terms</Link>
           </li>
         </ul>
       </div>

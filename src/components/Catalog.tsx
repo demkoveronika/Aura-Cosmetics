@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import catalog1 from "../../public/images/catalog/catalog-1.svg";
 import catalog2 from "../../public/images/catalog/catalog-2.svg";
 import catalog3 from "../../public/images/catalog/catalog-3.svg";
 import catalog4 from "../../public/images/catalog/catalog-4.svg";
-import Link from "next/link";
 
 export const Catalog = () => {
   return (

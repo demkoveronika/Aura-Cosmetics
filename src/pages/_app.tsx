@@ -2,25 +2,37 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 
-const inriaSans = localFont({
+const inriaSerif = localFont({
   src: "./fonts/InriaSerif-Regular.woff",
-  variable: "--font-inria-sans",
-  weight: "100 900",
+  variable: "--font-inria-serif",
+  weight: "400",
 });
-const aboretoSans = localFont({
+const inriaSerifBold = localFont({
+  src: "./fonts/InriaSerif-Bold.woff",
+  variable: "--font-inria-serif-bold",
+  weight: "700",
+});
+const inriaSerifBoldItalic = localFont({
+  src: "./fonts/InriaSerif-BoldItalic.woff",
+  variable: "--font-inria-serif-bold-italic",
+  weight: "700",
+});
+const aboretoSerif = localFont({
   src: "./fonts/Aboreto-Regular.woff",
-  variable: "--font-aboreto-sans",
-  weight: "100 900",
+  variable: "--font-aboreto-serif",
+  weight: "400",
 });
-const rosarivoSans = localFont({
+const rosarivoCursive = localFont({
   src: "./fonts/Rosarivo-Regular.woff",
-  variable: "--font-rosarivo-sans",
-  weight: "100 900",
-})
+  variable: "--font-rosarivo-cursive",
+  weight: "400",
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${inriaSans.variable} ${aboretoSans.variable} ${rosarivoSans.variable}`}>
+    <div
+      className={`${inriaSerif.variable} ${inriaSerifBold.variable} ${inriaSerifBoldItalic.variable} ${aboretoSerif.variable} ${rosarivoCursive.variable}`}
+    >
       <Component {...pageProps} />
     </div>
   );

@@ -1,7 +1,9 @@
-import Link from "next/link";
-import closeIcon from "../../public/images/menu/close-icon.svg";
-import Image from "next/image";
 import { useEffect } from "react";
+
+import Image from "next/image";
+import Link from "next/link";
+
+import closeIcon from "../../public/images/icons/close.svg";
 
 interface Props {
   isOpen: boolean;
@@ -188,19 +190,19 @@ const Menu: React.FC<Props> = ({ isOpen, toggleMenu }) => {
 
         <div className=" relative mt-[70px] pb-[138px] flex flex-row gap-[64px] overflow-hidden">
           <Link
-            href="#privacy"
+            href="/privacy-policy"
             onClick={() => {
               toggleMenu();
             }}
             className="uppercase text-[36px] tracking-[0.5em] leading-[60px] font-inria text-primary"
           >
-            Privacy Police
+            Privacy Policy
           </Link>
 
           <hr className="relative rotate-90 top-[30px] bg-secondary w-[70px] border-none h-[1px]" />
 
           <Link
-            href="#terms"
+            href="/terms"
             onClick={() => {
               toggleMenu();
             }}

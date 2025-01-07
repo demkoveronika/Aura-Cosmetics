@@ -1,8 +1,9 @@
-import money from "../../public/images/why-us/money.svg";
-import rocket from "../../public/images/why-us/rocket.svg";
-import verified from "../../public/images/why-us/verified.svg";
-import touch from "../../public/images/why-us/touch.svg";
 import Image from "next/image";
+
+import money from "../../public/images/icons/money.svg";
+import rocket from "../../public/images/icons/rocket.svg";
+import verified from "../../public/images/icons/verified.svg";
+import touch from "../../public/images/icons/touch.svg";
 
 export const Other = () => {
   return (

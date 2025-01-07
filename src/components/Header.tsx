@@ -1,10 +1,13 @@
-import Image from "next/image";
-import logo from "../../public/images/header/logo.svg";
-import menu from "../../public/images/header/menu-icon.svg";
-import cart from "../../public/images/header/shopping-bag-icon.svg";
-import Link from "next/link";
 import { useState } from "react";
+
+import Image from "next/image";
+import Link from "next/link";
+
 import Menu from "./Menu";
+
+import logo from "../../public/images/logo.svg";
+import menu from "../../public/images/icons/menu.svg";
+import cart from "../../public/images/icons/shopping-bag.svg";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);

@@ -1,15 +1,16 @@
 import Image from "next/image";
-import slider1 from "../../public/images/new/slider-1.svg";
-import slider2 from "../../public/images/new/slider-2.svg";
-import slider3 from "../../public/images/new/slider-3.svg";
-import slider4 from "../../public/images/new/slider-4.svg";
-import slider5 from "../../public/images/new/slider-5.svg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
+
+import slider1 from "../../public/images/new/slider-1.svg";
+import slider2 from "../../public/images/new/slider-2.svg";
+import slider3 from "../../public/images/new/slider-3.svg";
+import slider4 from "../../public/images/new/slider-4.svg";
+import slider5 from "../../public/images/new/slider-5.svg";
 
 export const New = () => {
   const slides = [

@@ -1,12 +1,14 @@
-import { Header } from "@/components/Header";
 import Image from "next/image";
-import hero from "../../public/images/header/hero.svg";
+
+import { Header } from "@/components/Header";
 import { Catalog } from "@/components/Catalog";
 import { New } from "@/components/New";
 import { About } from "@/components/About";
 import { Reviews } from "@/components/Reviews";
 import { Other } from "@/components/Other";
 import { Footer } from "@/components/Footer";
+
+import hero from "../../public/images/hero.svg";
 
 export default function Home() {
   return (
