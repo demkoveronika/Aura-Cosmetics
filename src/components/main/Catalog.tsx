@@ -57,7 +57,7 @@ export const Catalog = () => {
         <div className="absolute right-[286px] bottom-[30px] w-[300px] h-[300px] bg-primary rounded-full" />
         <div className="absolute right-[446px] bottom-[250px] w-[150px] h-[150px] bg-tertiary rounded-full" />
         <div className="absolute right-[144px] bottom-[270px] w-[400px] h-[400px] bg-secondary rounded-full" />
-        <Link href="#catalog4" className="cursor-pointer">
+        <Link href="/mens-cosmetics" className="cursor-pointer">
           <Image
             className="relative z-10 transition-transform duration-300 ease-in-out transform hover:scale-105"
             src={catalog4}

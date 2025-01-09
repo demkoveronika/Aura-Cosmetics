@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import Menu from "./Menu";
 
-import logo from "@/../../public/images/logo.svg";
+import logo from "@/../../public/images/logoes/logo.svg";
 import menu from "@/../../public/images/icons/menu.svg";
 import cart from "@/../../public/images/icons/shopping-bag.svg";
 

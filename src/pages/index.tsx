@@ -8,7 +8,7 @@ import { Reviews } from "@/components/main/Reviews";
 import { Other } from "@/components/main/Other";
 import { Footer } from "@/components/main/Footer";
 
-import hero from "../../public/images/hero.svg";
+import hero from "../../public/images/heroes/hero.svg";
 
 export default function Home() {
   return (

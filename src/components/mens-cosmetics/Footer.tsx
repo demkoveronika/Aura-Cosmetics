@@ -8,7 +8,7 @@ import location from "@/../../public/images/icons/location-light.svg";
 export const Footer = () => {
   return (
     <>
-      <div className="relative z-10 w-full h-[1px] bg-secondary" />
+      <div className="relative z-10 w-full h-[1px] bg-primary" />
 
       <footer className="relative z-10 flex flex-row justify-between items-center pb-[59px] pt-[64px] bg-white">
         <Image src={logo} alt="logo" width={441} height={345} />
@@ -28,9 +28,7 @@ export const Footer = () => {
             </li>
 
             <li className="font-inria uppercase text-[24px] leading-[20px] tracking-[0.5em] text-primary">
-              <Link href="#">
-                Sun Protection <br /> Products
-              </Link>
+              <Link href="#">Shaving Products</Link>
             </li>
 
             <li className="font-inria uppercase text-[24px] leading-[20px] tracking-[0.5em] text-primary">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import hero from "@/../../public/images/hero-care-cosmetics.svg";
+import hero from "@/../../public/images/heroes/hero-care-cosmetics.svg";
 
 export const Menu = () => {
   return (

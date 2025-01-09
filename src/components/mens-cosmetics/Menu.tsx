@@ -1,30 +1,30 @@
 import Image from "next/image";
 
-import hero from "@/../../public/images/heroes/hero-dec-cosmetics.svg";
+import hero from "@/../../public/images/heroes/hero-mens-cosmetics.svg";
 
 export const Menu = () => {
   return (
-    <section className="mt-[149px]">
-      <div className="bg-tertiary pt-[20px] pb-[20px] pl-[60px]">
-        <ul className="flex flex-row gap-[66px]">
+    <section>
+      <div className="bg-tertiary pt-[20px] pb-[20px] pl-[61px]">
+        <ul className="flex flex-row gap-[73px]">
           <li>
             <button className="font-aboreto text-[24px] leading-[40px] tracking-[0.2em] text-primary">
-              Face Makeup
+              Facial Care
             </button>
           </li>
           <li>
             <button className="font-aboreto text-[24px] leading-[40px] tracking-[0.2em] text-primary">
-              Eye Makeup
+              Body Care
             </button>
           </li>
           <li>
             <button className="font-aboreto text-[24px] leading-[40px] tracking-[0.2em] text-primary">
-              Lip Makeup
+              Hair Care
             </button>
           </li>
           <li>
             <button className="font-aboreto text-[24px] leading-[40px] tracking-[0.2em] text-primary">
-              Makeup Accessories
+              Shaving Products
             </button>
           </li>
           <li>
