@@ -7,7 +7,7 @@ import favourite from "@/../../public/images/icons/favourite.svg";
 export const CatalogCard = ({ item }: { item: Catalog }) => {
   return (
     <>
-      <div className="w-[320px] h-[450px] p-[10px] shadow" key={item.id}>
+      <div className="w-[320px] h-[450px] p-[10px] shadow bg-white" key={item.id}>
         <Image
           src={item.image}
           alt={`${item.productName}`}

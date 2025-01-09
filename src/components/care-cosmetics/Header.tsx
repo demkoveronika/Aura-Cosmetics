@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import arrowBack from "@/../../public/images/icons/arrow-back.svg";
 import logo from "@/../../public/images/logo-care-cosmetics.svg";
@@ -8,7 +9,9 @@ export const Header = () => {
   return (
     <header>
       <div className="relative flex flex-row items-center justify-between mt-[28px] ml-[68px]">
-        <Image src={arrowBack} alt="arrow back" width={48} height={48} />
+        <Link href="/">
+          <Image src={arrowBack} alt="arrow back" width={48} height={48} />
+        </Link>
         <div className="absolute left-[355px] w-[80px] h-[80px] bg-tertiary rounded-full" />
         <h1 className="uppercase text-[40px] tracking-[0.5em] leading-[40px] font-aboreto text-primary text-center flex-grow">
           Care Cosmetics
@@ -25,7 +28,7 @@ export const Header = () => {
         />
         <Image
           src={image}
-          alt="image"
+          alt=""
           width={685}
           height={636}
           className="ml-[507px]"
