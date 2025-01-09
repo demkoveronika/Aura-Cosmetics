@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import catalog1 from "../../public/images/catalog/catalog-1.svg";
-import catalog2 from "../../public/images/catalog/catalog-2.svg";
-import catalog3 from "../../public/images/catalog/catalog-3.svg";
-import catalog4 from "../../public/images/catalog/catalog-4.svg";
+import catalog1 from "@/../../public/images/catalog/catalog-1.svg";
+import catalog2 from "@/../../public/images/catalog/catalog-2.svg";
+import catalog3 from "@/../../public/images/catalog/catalog-3.svg";
+import catalog4 from "@/../../public/images/catalog/catalog-4.svg";
 
 export const Catalog = () => {
   return (
@@ -19,7 +19,7 @@ export const Catalog = () => {
       <div className="w-[287px] mb-[170px] mt-[10px] h-[1px] bg-secondary" />
 
       <div className="flex row-auto gap-[32px] items-center justify-center relative">
-        <Link href="#catalog1" className="cursor-pointer">
+        <Link href="/care-cosmetics" className="cursor-pointer">
           <Image
             className="relative z-10 transition-transform duration-300 ease-in-out transform hover:scale-105"
             src={catalog1}

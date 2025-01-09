@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Review } from "../../types/reviewTypes";
+import { Review } from "@/../../types/reviewTypes";
 
 export const ReviewCard = ({ review }: { review: Review }) => {
   return (

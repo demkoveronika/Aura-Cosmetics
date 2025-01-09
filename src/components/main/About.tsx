@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-import image1 from "../../public/images/about/image-1.svg";
-import image2 from "../../public/images/about/image-2.svg";
-import image3 from "../../public/images/about/image-3.svg";
+import image1 from "@/../../public/images/about/image-1.svg";
+import image2 from "@/../../public/images/about/image-2.svg";
+import image3 from "@/../../public/images/about/image-3.svg";
+
 
 export const About = () => {
   return (

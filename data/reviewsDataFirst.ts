@@ -1,7 +1,8 @@
+import { Review } from "../types/reviewTypes";
+
 import girl1 from "../public/images/reviews/girl-1.svg";
 import girl2 from "../public/images/reviews/girl-2.svg";
 import girl3 from "../public/images/reviews/girl-3.svg";
-import { Review } from "../types/reviewTypes";
 
 export const reviewsDataFirst: Review[] = [
   {

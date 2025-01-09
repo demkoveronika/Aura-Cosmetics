@@ -14,6 +14,8 @@ export default {
         rosarivo: ["var(--font-rosarivo-cursive)", "cursive"],
         inriaBold: ["var(--font-inria-serif-bold)", "sans-serif"],
         inriaBoldItalic: ["var(--font-inria-serif-bold-italic)", "sans-serif"],
+        alexBrush: ["var(--font-alex-brush-serif)", "serif"],
+        josefinSlab: ["var(--font-josefin-slab-serif)", "serif"],
       },
       colors: {
         background: "var(--background)",

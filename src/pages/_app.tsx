@@ -27,11 +27,21 @@ const rosarivoCursive = localFont({
   variable: "--font-rosarivo-cursive",
   weight: "400",
 });
+const alexBrushSerif = localFont({
+  src: "./fonts/AlexBrush-Regular.woff",
+  variable: "--font-alex-brush-serif",
+  weight: "400",
+});
+const josefinSlabSerif = localFont({
+  src: "./fonts/JosefinSlab-Regular.woff",
+  variable: "--font-josefin-slab-serif",
+  weight: "400",
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div
-      className={`${inriaSerif.variable} ${inriaSerifBold.variable} ${inriaSerifBoldItalic.variable} ${aboretoSerif.variable} ${rosarivoCursive.variable}`}
+      className={`${inriaSerif.variable} ${inriaSerifBold.variable} ${inriaSerifBoldItalic.variable} ${aboretoSerif.variable} ${rosarivoCursive.variable} ${alexBrushSerif.variable} ${josefinSlabSerif.variable}`}
     >
       <Component {...pageProps} />
     </div>

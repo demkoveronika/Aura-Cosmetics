@@ -7,8 +7,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 import { ReviewCard } from "./ReviewCard";
-import { reviewsDataFirst } from "../../data/reviewsDataFirst";
-import { reviewsDataSecond } from "../../data/reviewsDataSecond";
+import { reviewsDataFirst } from "@/../../data/reviewsDataFirst";
+import { reviewsDataSecond } from "@/../../data/reviewsDataSecond";
 
 export const Reviews = () => {
   return (

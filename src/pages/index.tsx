@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import { Header } from "@/components/Header";
-import { Catalog } from "@/components/Catalog";
-import { New } from "@/components/New";
-import { About } from "@/components/About";
-import { Reviews } from "@/components/Reviews";
-import { Other } from "@/components/Other";
-import { Footer } from "@/components/Footer";
+import { Header } from "@/components/main/Header";
+import { Catalog } from "@/components/main/Catalog";
+import { New } from "@/components/main/New";
+import { About } from "@/components/main/About";
+import { Reviews } from "@/components/main/Reviews";
+import { Other } from "@/components/main/Other";
+import { Footer } from "@/components/main/Footer";
 
 import hero from "../../public/images/hero.svg";
 

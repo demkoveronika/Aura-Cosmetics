@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import closeIcon from "../../public/images/icons/close.svg";
+import closeIcon from "@/../../public/images/icons/close.svg";
 
 interface Props {
   isOpen: boolean;
