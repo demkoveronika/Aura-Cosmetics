@@ -43,7 +43,7 @@ export const Catalog = () => {
             />
           </Link>
 
-          <Link href="#catalog3" className="cursor-pointer">
+          <Link href="/sensitive-cosmetics" className="cursor-pointer">
             <Image
               className=" relative z-10 mt-[14px] ml-[195px] transition-transform duration-300 ease-in-out transform hover:scale-105"
               src={catalog3}
