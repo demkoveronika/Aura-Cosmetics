@@ -67,32 +67,56 @@ const Menu: React.FC<Props> = ({ isOpen, toggleMenu }) => {
           <div className="mb-[89px]">
             <div className="mt-[20px] flex flex-row items-center">
               <div className="absolute w-[20px] h-[20px] bg-secondary rounded-full ml-[75px]" />
-              <h3 className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria">
+              <Link
+                href="/care-cosmetics"
+                onClick={() => {
+                  toggleMenu();
+                }}
+                className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria"
+              >
                 Care cosmetics
-              </h3>
+              </Link>
             </div>
 
             <hr className="relative top-[68px] right-[10px] rotate-90 bg-secondary w-[190px] border-none h-[1px]" />
 
             <div className="mt-[20px] flex flex-row items-center">
               <div className="absolute w-[20px] h-[20px] bg-secondary rounded-full ml-[75px]" />
-              <h3 className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria">
+              <Link
+                href="/decorative-cosmetics"
+                onClick={() => {
+                  toggleMenu();
+                }}
+                className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria"
+              >
                 Decorative cosmetics
-              </h3>
+              </Link>
             </div>
 
             <div className="mt-[20px] flex flex-row items-center">
               <div className="absolute w-[20px] h-[20px] bg-secondary rounded-full ml-[75px]" />
-              <h3 className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria">
+              <Link
+                href="/sensitive-cosmetics"
+                onClick={() => {
+                  toggleMenu();
+                }}
+                className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria"
+              >
                 Sensitive cosmetics
-              </h3>
+              </Link>
             </div>
 
             <div className="mt-[20px] flex flex-row items-center">
               <div className="absolute w-[20px] h-[20px] bg-secondary rounded-full ml-[75px]" />
-              <h3 className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria">
+              <Link
+                href="/mens-cosmetics"
+                onClick={() => {
+                  toggleMenu();
+                }}
+                className="ml-[176px] uppercase text-[25px] tracking-[0.2em] text-primary font-inria"
+              >
                 Men’s cosmetics
-              </h3>
+              </Link>
             </div>
           </div>
         </div>

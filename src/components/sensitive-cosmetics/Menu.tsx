@@ -5,8 +5,8 @@ import hero from "@/../../public/images/heroes/hero-sens-cosmetics.svg";
 export const Menu = () => {
   return (
     <section className="mt-[304px]">
-      <div className="bg-primary pt-[20px] pb-[20px] pl-[61px]">
-        <ul className="flex flex-row gap-[44px]">
+      <div className="bg-primary pt-[20px] pb-[20px] pl-[48px] pr-[48px]">
+        <ul className="flex flex-row justify-between">
           <li>
             <button className="font-aboreto text-[24px] leading-[40px] tracking-[0.2em] text-tertiary">
               Facial Care
